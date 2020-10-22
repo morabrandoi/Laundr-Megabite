@@ -9,13 +9,26 @@
   background-color: #f9f9f9;
   border-radius: 10px;
   font-family: 'Roboto', sans-serif;
-  color: #676767;
 }
 
 .NaviButtons{
+  color: #676767;
   text-decoration: none;
 }
 
 .NaviButtons:hover{
   color: #01C9E1;
+}
+
+.LaundrBlue{
+  height:10vh;
+}
+
+.Icons{
+  color: #FFB600;
+  padding: 5px;
+}
+
+.Icons:hover{
+  color: #676767;
 }
