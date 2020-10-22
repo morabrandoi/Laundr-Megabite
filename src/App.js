@@ -8,7 +8,9 @@ function App() {
   return (
     <BrowserRouter>
     <div className="NaviBar">
-    <h2>Shop All</h2>
+    <a href="/shop" className="NaviButtons">
+      <h2>Shop All</h2>
+    </a>
     <h2>Our Story</h2>
     <h2>Contact</h2>
     <h2>FAQ</h2>
