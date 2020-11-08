@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 function Home(props) {
     return (
         <>
-            <h1 className={styles.headerText}>This is home site</h1>
+            <h1 className={styles.headerText}>Our Brand New Laundr Bombs!</h1>
             <div className={styles.centerText}>
                 <a href="/shop"> Go To Shop</a>
             </div>
@@ -13,6 +13,7 @@ function Home(props) {
                 <a href="/aboutus"> About Us </a>
             </div>
 
+            <div className={styles.spacer}></div>
             <div className={styles.border}></div>
             <div className={styles.spacer}></div>
 
@@ -28,6 +29,9 @@ function Home(props) {
                 </p>
                 <p className={styles.productText}>
                 This fragrance has hints of: Crisp Cucumber, Sweet Melon, and Cool Grapefruit
+                </p>
+                <p className={styles.centerText}>
+                <a href="/WCProPage">See more about this product!</a>
                 </p>
             </div>
 
@@ -48,6 +52,9 @@ function Home(props) {
                 <p className={styles.productText}>
                 This fragrance has hints of: Gardenia Shrub, Floral Essence, and Apple Water
                 </p>
+                <p className={styles.centerText}>
+                <a href="/WGProPage">See more about this product!</a>
+                </p>
             </div>
 
             <div className={styles.spacer}></div>
@@ -66,6 +73,9 @@ function Home(props) {
                 </p>
                 <p className={styles.productText}>
                 This fragrance has hints of: Oak and Mahogany Wood, Boreal Forestry, and Light Musk
+                </p>
+                <p className={styles.centerText}>
+                <a href="/MTProPage">See more about this product!</a>
                 </p>
             </div>
             
@@ -86,6 +96,9 @@ function Home(props) {
                 <p className={styles.productText}>
                 This fragrance has hints of: Cotton, Ozone, and Tropical Fruit
                 </p>
+                <p className={styles.centerText}>
+                <a href="/FAProPage">See more about this product!</a>
+                </p>
             </div>
             
             <div className={styles.spacer}></div>
@@ -105,6 +118,9 @@ function Home(props) {
                 <p className={styles.productText}>
                 This fragrance has hints of: Dark Coffee Beans, Vanilla Extract, and Hazelnut Cream
                 </p>
+                <p className={styles.centerText}>
+                <a href="/CVProPage">See more about this product!</a>
+                </p>
             </div>
             
             <div className={styles.spacer}></div>
@@ -123,6 +139,9 @@ function Home(props) {
                 </p>
                 <p className={styles.productText}>
                 This fragrance has hints of: Tea Tree and Eucalyptus, Natural Herbs, and Bergamot Orange
+                </p>
+                <p className={styles.centerText}>
+                <a href="/ETTProPage">See more about this product!</a>
                 </p>
             </div>
             

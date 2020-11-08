@@ -9,6 +9,12 @@ import Contact from './components/Contact/Contact';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import "./App.css";
+import WCProPage from './components/ProductPages/WCProPage';
+import WGProPage from './components/ProductPages/WGProPage';
+import MTProPage from './components/ProductPages/MTProPage';
+import FAProPage from './components/ProductPages/FAProPage';
+import CVProPage from './components/ProductPages/CVProPage';
+import ETTProPage from './components/ProductPages/ETTProPage';
 
 function App() {
   return (
@@ -22,6 +28,12 @@ function App() {
             <Route path="/aboutus" component={AboutUs} exact />
             <Route path="/faq" component={FAQ} exact />
             <Route path="/contact" component={Contact} exact />
+            <Route path="/WCProPage" component={WCProPage} exact />
+            <Route path="/WGProPage" component={WGProPage} exact />
+            <Route path="/MTProPage" component={MTProPage} exact />
+            <Route path="/FAProPage" component={FAProPage} exact />
+            <Route path="/CVProPage" component={CVProPage} exact />
+            <Route path="/ETTProPage" component={ETTProPage} exact />
           </Switch>
         </div>
         </BrowserRouter>
