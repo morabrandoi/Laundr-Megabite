@@ -1,0 +1,8 @@
+.headerText { 
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}

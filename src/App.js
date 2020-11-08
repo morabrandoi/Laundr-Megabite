@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home/Home';
+import NaviBar from './components/Bars/NaviBar'
+import Shops from './components/Shop/Shop';
 import AboutUs from './components/AboutUs/AboutUs';
 import FAQ from './components/FAQ/FAQ';
 import Contact from './components/Contact/Contact';
-import Shops from './components/Shop/Shop';
-import NaviBar from './components/Bars/NaviBar'
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import "./App.css";
 
 function App() {
@@ -13,17 +15,17 @@ function App() {
     <div className="App">
       <NaviBar/>
       <BrowserRouter>
-          <div>
-            <Switch>
-              <Route path="/" component={Home} exact/>
-              <Route path="/shop" component={Shops} exact/>
-              <Route path="/aboutus" component={AboutUs} exact />
-              <Route path="/faq" component={FAQ} exact />
-              <Route path="/contact" component={Contact} exact />
-            </Switch>
-          </div>
-      </BrowserRouter>
-    </div>
+        <div>
+          <Switch>
+            <Route path="/" component={Home} exact/>
+            <Route path="/shop" component={Shops} exact/>
+            <Route path="/aboutus" component={AboutUs} exact />
+            <Route path="/faq" component={FAQ} exact />
+            <Route path="/contact" component={Contact} exact />
+          </Switch>
+        </div>
+        </BrowserRouter>
+      </div>
   );
 }
 
