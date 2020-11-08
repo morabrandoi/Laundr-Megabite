@@ -33,3 +33,16 @@
 .Icons:hover{
   color: #676767;
 }
+
+.FooterBar {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.License {
+  font-family: 'Roboto', sans-serif;
+  color: #676767;
+  margin-top: 0vh;
+}

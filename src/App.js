@@ -6,8 +6,7 @@ import Shops from './components/Shop/Shop';
 import AboutUs from './components/AboutUs/AboutUs';
 import FAQ from './components/FAQ/FAQ';
 import Contact from './components/Contact/Contact';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import FooterBar from './components/Bars/FooterBar'
 import "./App.css";
 
 function App() {
@@ -25,6 +24,7 @@ function App() {
           </Switch>
         </div>
         </BrowserRouter>
+        <FooterBar/>
       </div>
   );
 }
