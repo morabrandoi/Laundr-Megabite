@@ -2,7 +2,57 @@
     text-align: center;
 }
 
+.spacer {
+    height: 100px;
+}
+
+.border {
+    height: 5px;
+    background-color: black;
+}
+
 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.WatermelonCucumberHeader {
+    text-align: center;
+    color: #ff5656;
+}
+
+.WhiteGardeniaHeader{
+    text-align: center;
+    color: #f4ea9c;
+}
+
+.MahoganyTeakwoodHeader{
+    text-align: center;
+    color: #5b5b5b;
+}
+
+.FreshAirHeader{
+    text-align: center;
+    color: #8dcfdd;
+}
+
+.CoffeeVanillaHeader{
+    text-align: center;
+    color: #e2cea3;
+}
+
+.EucalyptusTeaTreeHeader{
+    text-align: center;
+    color: #48c47e;
+}
+
+.productText {
+    text-align: center;
+}
+
+.centerText {
     display: flex;
     justify-content: center;
 }
