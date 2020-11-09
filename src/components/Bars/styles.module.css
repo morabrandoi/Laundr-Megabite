@@ -1,7 +1,6 @@
 .NaviBar{
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
   justify-content: space-around;
   position: sticky;
   align-items: center;
@@ -32,4 +31,17 @@
 
 .Icons:hover{
   color: #676767;
+}
+
+.FooterBar {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.License {
+  font-family: 'Roboto', sans-serif;
+  color: #676767;
+  margin-top: 0vh;
 }
