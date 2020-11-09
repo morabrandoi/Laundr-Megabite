@@ -14,6 +14,8 @@ import MTProPage from './components/ProductPages/MTProPage';
 import FAProPage from './components/ProductPages/FAProPage';
 import CVProPage from './components/ProductPages/CVProPage';
 import ETTProPage from './components/ProductPages/ETTProPage';
+import SignUp from './components/SignUp/SignUp';
+import SignIn from './components/SignIn/SignIn';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
             <Route path="/FAProPage" component={FAProPage} exact />
             <Route path="/CVProPage" component={CVProPage} exact />
             <Route path="/ETTProPage" component={ETTProPage} exact />
+            <Route path="/SignIn" component={SignIn} exact />
+            <Route path="/SignUp" component={SignUp} exact />
           </Switch>
         </div>
         </BrowserRouter>
