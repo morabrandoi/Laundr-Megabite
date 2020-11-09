@@ -13,3 +13,17 @@
   font-family: 'Roboto', sans-serif;
   color: #676767;
 }
+
+.ProductName {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.GridBox {
+  height: 400px;
+}
+
+.GridImage {
+  height: 400px;
+}
