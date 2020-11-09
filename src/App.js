@@ -35,6 +35,8 @@ function App() {
               <Route path="/FAProPage" component={FAProPage} exact />
               <Route path="/CVProPage" component={CVProPage} exact />
               <Route path="/ETTProPage" component={ETTProPage} exact />
+              <Route path="/signup" component={SignUp} exact />
+              <Route path="/signin" component={SignIn} exact />
             </Switch>
         </BrowserRouter>
       </div>
