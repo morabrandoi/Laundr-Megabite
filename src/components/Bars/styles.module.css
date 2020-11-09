@@ -35,6 +35,7 @@
 }
 
 .FooterBar {
+  width: 100%;
   align-items: center;
   display: flex;
   flex-grow: 1;
