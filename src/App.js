@@ -21,27 +21,26 @@ function App() {
   return (
     <div className="App">
       <NaviBar/>
-      <BrowserRouter>
-        <div>
-          <Switch>
-            <Route path="/" component={Home} exact/>
-            <Route path="/shop" component={Shops} exact/>
-            <Route path="/aboutus" component={AboutUs} exact />
-            <Route path="/faq" component={FAQ} exact />
-            <Route path="/contact" component={Contact} exact />
-            <Route path="/WCProPage" component={WCProPage} exact />
-            <Route path="/WGProPage" component={WGProPage} exact />
-            <Route path="/MTProPage" component={MTProPage} exact />
-            <Route path="/FAProPage" component={FAProPage} exact />
-            <Route path="/CVProPage" component={CVProPage} exact />
-            <Route path="/ETTProPage" component={ETTProPage} exact />
-            <Route path="/SignIn" component={SignIn} exact />
-            <Route path="/SignUp" component={SignUp} exact />
-          </Switch>
-        </div>
+      <div className="Content">
+        <BrowserRouter>
+            <Switch>
+              <Route path="/" component={Home} exact/>
+              <Route path="/shop" component={Shops} exact/>
+              <Route path="/aboutus" component={AboutUs} exact />
+              <Route path="/faq" component={FAQ} exact />
+              <Route path="/contact" component={Contact} exact />
+              <Route path="/WCProPage" component={WCProPage} exact />
+              <Route path="/WGProPage" component={WGProPage} exact />
+              <Route path="/MTProPage" component={MTProPage} exact />
+              <Route path="/FAProPage" component={FAProPage} exact />
+              <Route path="/CVProPage" component={CVProPage} exact />
+              <Route path="/ETTProPage" component={ETTProPage} exact />
+            </Switch>
         </BrowserRouter>
-        <FooterBar/>
       </div>
+      <div className="Fill"/>
+      <FooterBar/>
+    </div>
   );
 }
 
