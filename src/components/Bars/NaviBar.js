@@ -22,7 +22,9 @@ function NaviBar(props) {
           <h2>Contact Us</h2>
         </a>
         <div>
-          <AccountCircleIcon  className={styles.Icons}/>
+          <a href="/signin">
+            <AccountCircleIcon className={styles.Icons}/>
+          </a>
           <ShoppingCartIcon className={styles.Icons}/>
         </div>
       </div>

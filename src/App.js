@@ -14,6 +14,8 @@ import MTProPage from './components/ProductPages/MTProPage';
 import FAProPage from './components/ProductPages/FAProPage';
 import CVProPage from './components/ProductPages/CVProPage';
 import ETTProPage from './components/ProductPages/ETTProPage';
+import SignUp from './components/SignUp/SignUp';
+import SignIn from './components/SignIn/SignIn';
 
 function App() {
   return (
