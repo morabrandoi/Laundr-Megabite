@@ -3,14 +3,12 @@ import styles from './styles.module.css'
 
 function Shops(props) {
     return (
-        <>
-            <h1 className={styles.headerText}>Product Pages</h1>
-
-            <div className={styles.text}>
-                <a href="/"> Go Back to Home page</a>
-            </div>
-            
-        </>
+      <div className={styles.ShopAllText}>
+        <h1 className={styles.Title}>Shop All</h1>
+        <div className={styles.TextFill}>
+        </div>
+        <p className={styles.Items}>6 items</p>
+      </div>
     );
 }
 

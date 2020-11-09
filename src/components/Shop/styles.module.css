@@ -1,8 +1,15 @@
-.headerText { 
-    text-align: center;
+.ShopAllText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.text {
-    display: flex;
-    justify-content: center;
+.TextFill {
+  flex-grow: 1;
+}
+
+.Items {
+  margin-top: 5vh;
+  font-family: 'Roboto', sans-serif;
+  color: #676767;
 }
