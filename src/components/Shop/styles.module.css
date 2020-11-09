@@ -2,7 +2,34 @@
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 .text {
     display: flex;
     justify-content: center;
 }
+=======
+.TextFill {
+  flex-grow: 1;
+}
+
+.Items {
+  margin-top: 5vh;
+  font-family: 'Roboto', sans-serif;
+  color: #676767;
+}
+
+.ProductName {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.GridBox {
+  height: 400px;
+}
+
+.GridImage {
+  height: 400px;
+}
+>>>>>>> Stashed changes
