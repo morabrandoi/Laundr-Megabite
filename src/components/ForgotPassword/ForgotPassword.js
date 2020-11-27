@@ -4,26 +4,26 @@ import { useAuth } from '../../contexts/AuthContext'
 import { Link, useHistory } from 'react-router-dom'
 
 
-export default function SignIn() {
+export default function ForgotPassword() {
 
   const emailRef = useRef()
-  const passwordRef = useRef()
   
-  const { signIn } = useAuth()
+  const { resetPassword } = useAuth()
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const history = useHistory()
+  const [message, setMessage] = useState("")
 
   async function handleSubmit(event) {
     event.preventDefault()
 
     try {
-      setError('')
-      setLoading(true)
-      await signIn(emailRef.current.value, passwordRef.current.value)
-      history.push('/')
+        setMessage("")
+        setError('')
+        setLoading(true)
+        await resetPassword(emailRef.current.value)
+        setMessage('Check your inbox for further instructions.')
     } catch {
-      setError('Failed to sign in')
+      setError('Failed to send reset email')
     }
     setLoading(false)
     
@@ -36,21 +36,18 @@ export default function SignIn() {
       <div className="w-100" style={{maxWidth: "400px"}}>
         <Card>
           <Card.Body>
-            <h2 className="text-center mb-4">Sign In</h2>
+            <h2 className="text-center mb-4">Password Reset</h2>
             {error && <Alert variant="danger">{error}</Alert>}
+            {message && <Alert variant="success">{message}</Alert>}
             <Form onSubmit={ handleSubmit }>
               <Form.Group id="email">
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" ref={emailRef} required></Form.Control>
               </Form.Group>
-              <Form.Group id="password">
-                <Form.Label>Password</Form.Label>
-                <Form.Control type="password" ref={passwordRef} required></Form.Control>
-              </Form.Group>
-              <Button disabled={loading} className="w-100" type="submit">Sign In</Button>
+              <Button disabled={loading} className="w-100" type="submit">Reset Password</Button>
             </Form>
             <div className="w-100 text-center mt-3">
-              <Link to='/forgot-password'>Forgot Password?</Link>
+              <Link to='/signin'>Sign In</Link>
 
             </div>
           </Card.Body>

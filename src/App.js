@@ -18,7 +18,7 @@ import CVProPage from './components/ProductPages/CVProPage';
 import ETTProPage from './components/ProductPages/ETTProPage';
 import SignUp from './components/SignUp/SignUp';
 import SignIn from './components/SignIn/SignIn';
-
+import ForgotPassword from './components/ForgotPassword/ForgotPassword';
 
 function App() {
   return (
@@ -41,6 +41,7 @@ function App() {
                 <Route path="/ETTProPage" component={ETTProPage} exact />
                 <Route path="/signup" component={SignUp} exact />
                 <Route path="/signin" component={SignIn} exact />
+                <Route path="/forgot-password" component={ForgotPassword} exact />
               </Switch>
           </BrowserRouter>
         </div>
