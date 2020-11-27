@@ -19,6 +19,7 @@ import ETTProPage from './components/ProductPages/ETTProPage';
 import SignUp from './components/SignUp/SignUp';
 import SignIn from './components/SignIn/SignIn';
 import ForgotPassword from './components/ForgotPassword/ForgotPassword';
+import './fonts/Calmer-Bold.ttf'
 
 function App() {
   return (
