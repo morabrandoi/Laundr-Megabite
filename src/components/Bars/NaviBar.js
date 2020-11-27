@@ -2,8 +2,24 @@ import React from 'react';
 import styles from './styles.module.css'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import { useAuth } from '../../contexts/AuthContext'
 
 function NaviBar(props) {
+
+  // Related to logout
+  const { signOut, currentUser } = useAuth();
+
+  async function handleLogout() {
+    try {
+      await signOut()
+      console.log(`currentUser: ${currentUser}`)
+      
+    } catch {
+      console.log("Error with SignOut")
+    }
+  }
+
   return (
       <div className={styles.NaviBar}>
         <a href="/">
@@ -22,6 +38,7 @@ function NaviBar(props) {
           <h2>Contact Us</h2>
         </a>
         <div>
+          <ExitToAppIcon onClick={handleLogout} className={styles.Icons}/>
           <a href="/signin">
             <AccountCircleIcon className={styles.Icons}/>
           </a>
