@@ -16,6 +16,7 @@ import CVProPage from './components/ProductPages/CVProPage';
 import ETTProPage from './components/ProductPages/ETTProPage';
 import SignUp from './components/SignUp/SignUp';
 import SignIn from './components/SignIn/SignIn';
+import './fonts/Calmer-Bold.ttf'
 
 function App() {
   return (

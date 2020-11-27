@@ -1,0 +1,18 @@
+.FAQCategory {
+    text-align: left;
+    font-family: Roboto;
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerText{
+    text-align: center;
+    font-family: 'Calmer-Bold';
+  }
+
