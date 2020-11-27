@@ -1,5 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { AuthProvider } from './contexts/AuthContext'
+import "./App.css";
+
 import Home from './components/Home/Home';
 import NaviBar from './components/Bars/NaviBar'
 import Shops from './components/Shop/Shop';
@@ -7,7 +10,6 @@ import AboutUs from './components/AboutUs/AboutUs';
 import FAQ from './components/FAQ/FAQ';
 import Contact from './components/Contact/Contact';
 import FooterBar from './components/Bars/FooterBar'
-import "./App.css";
 import WCProPage from './components/ProductPages/WCProPage';
 import WGProPage from './components/ProductPages/WGProPage';
 import MTProPage from './components/ProductPages/MTProPage';
@@ -17,7 +19,6 @@ import ETTProPage from './components/ProductPages/ETTProPage';
 import SignUp from './components/SignUp/SignUp';
 import SignIn from './components/SignIn/SignIn';
 
-import { AuthProvider } from './contexts/AuthContext'
 
 function App() {
   return (
