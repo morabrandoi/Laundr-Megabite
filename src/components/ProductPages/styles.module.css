@@ -11,6 +11,19 @@
     height: 50px;
 }
 
+.addToCart {
+    float: right;
+    border-radius: 15pt;
+    background-color: #FFB600;
+    color: white;
+    font-weight: bold;
+    font-size: 10pt;
+    border: 0;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
 .masterDiv {
     min-height: 90vh;
     width: 100%;
@@ -84,7 +97,7 @@
 
 .imageDiv {
     height: 90vh;
-    width: 60%;
+    width: 58%;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -119,7 +132,7 @@
     font-family: 'Calmer-Bold';
     left: 7vw;
     text-align: left;
-    top: 19vh;
+    top: 22vh;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 7vw;
 }
@@ -143,7 +156,7 @@
     font-family: 'Calmer-Bold';
     left: 7vw;
     text-align: left;
-    top: 19vh;
+    top: 22vh;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 7vw;
 }
@@ -167,7 +180,7 @@
     font-family: 'Calmer-Bold';
     left: 7vw;
     text-align: left;
-    top: 19vh;
+    top: 22vh;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 7vw;
 }
@@ -191,7 +204,7 @@
     font-family: 'Calmer-Bold';
     left: 7vw;
     text-align: left;
-    top: 19vh;
+    top: 22vh;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 7vw;
 }
@@ -215,7 +228,7 @@
     font-family: 'Calmer-Bold';
     left: 7vw;
     text-align: left;
-    top: 19vh;
+    top: 21vh;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 7vw;
 }
@@ -239,7 +252,7 @@
     font-family: 'Calmer-Bold';
     left: 7vw;
     text-align: left;
-    top: 19vh;
+    top: 22vh;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 7vw;
 }

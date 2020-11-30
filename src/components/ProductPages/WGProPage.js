@@ -23,6 +23,9 @@ function WGProPage(props) {
                     <p className={styles.productText}>A sweet and floral perfume with relaxing notes, best used after a carefree frolic through a field of wildflowers.</p>
                     <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
                     <p className={styles.productText}>Gardenia Shrub, Floral Essence, Apple Water</p>
+                    <button className={styles.addToCart}>
+                        Add To Cart
+                    </button>
                 </div>
             </div>  
 

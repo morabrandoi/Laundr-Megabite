@@ -24,6 +24,9 @@ function WCProPage(props) {
                     <p className={styles.productText}>A sweet, cool and refreshing smell for brightening up your day. Great for picnic blankets, overalls, and being in a generally good mood.</p>
                     <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
                     <p className={styles.productText}>Crisp Cucumber, Sweet Melon, Cool Grapefruit</p>
+                    <button className={styles.addToCart}>
+                        Add To Cart
+                    </button>
                 </div>
             </div>
 

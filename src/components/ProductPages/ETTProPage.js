@@ -23,6 +23,9 @@ function ETTProPage(props) {
                     <p className={styles.productText}>A natural scent inspired by popular aromatherapy oil mixtures. Great for towels, bath robes, and having a “me day.”</p>
                     <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
                     <p className={styles.productText}>Tea Tree and Eucalyptus, Natural Herbs, Bergamont Orange</p>
+                    <button className={styles.addToCart}>
+                        Add To Cart
+                    </button>
                 </div>
             </div>
 

@@ -23,6 +23,9 @@ function FAProPage(props) {
                     <p className={styles.productText}>A soft, cottony fragrance that smells even cleaner than clean. Great for leaping face-first into a gigantic, fluffy comforter.</p>
                     <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
                     <p className={styles.productText}>Cotton, Ozone, Tropical Fruit</p>
+                    <button className={styles.addToCart}>
+                        Add To Cart
+                    </button>
                 </div>
             </div>
 

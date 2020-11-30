@@ -23,6 +23,9 @@ function MTProPage(props) {
                     <p className={styles.productText}>A great everyday alternative to cologne, or for a getaway to a log cabin hidden deep in a snowy forest.</p>
                     <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
                     <p className={styles.productText}>Oak and Mahogany Wood, Boreal Forestry, Light Musk</p>
+                    <button className={styles.addToCart}>
+                        Add To Cart
+                    </button>
                 </div>
             </div>
 

@@ -23,6 +23,9 @@ function CVProPage(props) {
                     <p className={styles.productText}>Smells like the steam rising off of a hot vanilla latte. Great for sitting in an armchair in a quaint neighborhood cafe.</p>
                     <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
                     <p className={styles.productText}>Dark Coffee Beans, Vanilla Extract, Hazelnut Cream</p>
+                    <button className={styles.addToCart}>
+                        Add To Cart
+                    </button>
                 </div>
             </div>
 
