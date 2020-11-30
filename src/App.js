@@ -20,35 +20,43 @@ import SignUp from './components/SignUp/SignUp';
 import SignIn from './components/SignIn/SignIn';
 import ForgotPassword from './components/ForgotPassword/ForgotPassword';
 import './fonts/Calmer-Bold.ttf'
+import Checkout from './components/Checkout/Checkout';
+import { loadStripe } from '@stripe/stripe-js'
+import { Elements } from '@stripe/react-stripe-js'
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY)
 
 function App() {
   return (
     <AuthProvider>
-      <div className="App">
-        <NaviBar/>
-        <div className="Content">
-          <BrowserRouter>
-              <Switch>
-                <Route path="/" component={Home} exact/>
-                <Route path="/shop" component={Shops} exact/>
-                <Route path="/aboutus" component={AboutUs} exact />
-                <Route path="/faq" component={FAQ} exact />
-                <Route path="/contact" component={Contact} exact />
-                <Route path="/WCProPage" component={WCProPage} exact />
-                <Route path="/WGProPage" component={WGProPage} exact />
-                <Route path="/MTProPage" component={MTProPage} exact />
-                <Route path="/FAProPage" component={FAProPage} exact />
-                <Route path="/CVProPage" component={CVProPage} exact />
-                <Route path="/ETTProPage" component={ETTProPage} exact />
-                <Route path="/signup" component={SignUp} exact />
-                <Route path="/signin" component={SignIn} exact />
-                <Route path="/forgot-password" component={ForgotPassword} exact />
-              </Switch>
-          </BrowserRouter>
+      <Elements stripe={stripePromise}>
+        <div className="App">
+          <NaviBar/>
+          <div className="Content">
+            <BrowserRouter>
+                <Switch>
+                  <Route path="/" component={Home} exact/>
+                  <Route path="/shop" component={Shops} exact/>
+                  <Route path="/aboutus" component={AboutUs} exact />
+                  <Route path="/faq" component={FAQ} exact />
+                  <Route path="/contact" component={Contact} exact />
+                  <Route path="/WCProPage" component={WCProPage} exact />
+                  <Route path="/WGProPage" component={WGProPage} exact />
+                  <Route path="/MTProPage" component={MTProPage} exact />
+                  <Route path="/FAProPage" component={FAProPage} exact />
+                  <Route path="/CVProPage" component={CVProPage} exact />
+                  <Route path="/ETTProPage" component={ETTProPage} exact />
+                  <Route path="/signup" component={SignUp} exact />
+                  <Route path="/signin" component={SignIn} exact />
+                  <Route path="/forgot-password" component={ForgotPassword} exact />
+                  <Route path="/checkout" component={Checkout} exact />
+
+                </Switch>
+            </BrowserRouter>
+          </div>
+          <div className="Fill"/>
+          <FooterBar/>
         </div>
-        <div className="Fill"/>
-        <FooterBar/>
-      </div>
+      </Elements>
     </AuthProvider>
   );
 }
