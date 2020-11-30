@@ -6,9 +6,14 @@ function FAProPage(props) {
         <>
             <div className={styles.masterDiv}>
                 <div className={styles.imageDiv}>
-                    <h1 className={styles.text}>
-                        Image/Animation goes here
-                    </h1>
+                    <img src="Tesselations/freshair_pattern.png" alt="" className={styles.tesselation}/>
+                    <img src="Mockups/freshair_asset.png" alt="" className={styles.FAimage}/>
+                    <div className={styles.FATitle1}>
+                        FRESH
+                    </div>
+                    <div className={styles.FATitle2}>
+                        AIR
+                    </div>
                 </div>
                 <div className={styles.infoDivFA}>
                     <h1 className={styles.productTitle}>About this Product:</h1>

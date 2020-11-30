@@ -6,9 +6,14 @@ function WGProPage(props) {
         <>
             <div className={styles.masterDiv}>
                 <div className={styles.imageDiv}>
-                    <h1 className={styles.text}>
-                        Image/Animation goes here
-                    </h1>
+                    <img src="Tesselations/gardenia_pattern.png" alt="" className={styles.tesselation}/>
+                    <img src="Mockups/gardeniaMockup.png" alt="" className={styles.image}/>
+                    <div className={styles.WGTitle1}>
+                        WHITE
+                    </div>
+                    <div className={styles.WGTitle2}>
+                        GARDENIA
+                    </div>
                 </div>
                 <div className={styles.infoDivWG}>
                     <h1 className={styles.productTitle}>About this Product:</h1>

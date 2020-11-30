@@ -13,11 +13,19 @@
 
 .masterDiv {
     min-height: 90vh;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     padding: 0;
+    left: 0;
+}
+
+.tesselation {
+    height: 90vh;
+    width: 100%;
+    z-index: 1;
 }
 
 .infoDivWC {
@@ -77,12 +85,175 @@
 .imageDiv {
     height: 90vh;
     width: 60%;
-    background-color: #EEE;
     margin: 0 auto;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    left: 0;
+}
+
+.image {
+    position: absolute;
+    height: auto;
+    width: 50vw;
+    transform: rotate(90deg);
+    left: 0;
+    margin: 0;
+    z-index: 3;
+}
+
+.FAimage {
+    position: absolute;
+    height: auto;
+    width: 30vw;
+    transform: rotate(90deg);
+    left: 7vw;
+    z-index: 3;
+}
+
+.WCTitle1 {
+    z-index: 2;
+    position: absolute;
+    color: #ff5656;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    top: 19vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.WCTitle2 {
+    z-index: 2;
+    position: absolute;
+    color: #ff5656;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    bottom: 8vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.WGTitle1 {
+    z-index: 2;
+    position: absolute;
+    color: #f4ea9c;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    top: 19vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.WGTitle2 {
+    z-index: 2;
+    position: absolute;
+    color: #f4ea9c;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    bottom: 8vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.MTTitle1 {
+    z-index: 2;
+    position: absolute;
+    color: #5b5b5b;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    top: 19vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.MTTitle2 {
+    z-index: 2;
+    position: absolute;
+    color: #5b5b5b;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    bottom: 8vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.FATitle1 {
+    z-index: 2;
+    position: absolute;
+    color: #8dcfdd;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    top: 19vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.FATitle2 {
+    z-index: 2;
+    position: absolute;
+    color: #8dcfdd;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    bottom: 8vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.CVTitle1 {
+    z-index: 2;
+    position: absolute;
+    color: #e2cea3;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    top: 19vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.CVTitle2 {
+    z-index: 2;
+    position: absolute;
+    color: #e2cea3;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    bottom: 8vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.ETTTitle1 {
+    z-index: 2;
+    position: absolute;
+    color: #48c47e;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    top: 19vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
+}
+
+.ETTTitle2 {
+    z-index: 2;
+    position: absolute;
+    color: #48c47e;
+    font-family: 'Calmer-Bold';
+    left: 7vw;
+    text-align: left;
+    bottom: 8vh;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 7vw;
 }
 
 .productTitle {

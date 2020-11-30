@@ -6,10 +6,16 @@ function WCProPage(props) {
         <>
             <div className={styles.masterDiv}>
                 <div className={styles.imageDiv}>
-                    <h1 className={styles.text}>
-                        Image/Animation goes here
-                    </h1>
+                    <img src="Tesselations/watermelon_pattern.png" alt= "" className={styles.tesselation}/>
+                    <img src="Mockups/watermelonMockup.png" alt="" className={styles.image}/>
+                    <div className={styles.WCTitle1}>
+                        WATERMELON
+                    </div>
+                    <div className={styles.WCTitle2}>
+                        CUCUMBER
+                    </div>
                 </div>
+
                 <div className={styles.infoDivWC}>
                     <h1 className={styles.productTitle}>About this Product:</h1>
                     <h2 className={styles.productSubTitle}>What's Included:</h2>

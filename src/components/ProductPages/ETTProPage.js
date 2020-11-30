@@ -6,9 +6,14 @@ function ETTProPage(props) {
         <>
             <div className={styles.masterDiv}>
                 <div className={styles.imageDiv}>
-                    <h1 className={styles.text}>
-                        Image/Animation goes here
-                    </h1>
+                    <img src="Tesselations/eucalyptus_pattern.png" alt="" className={styles.tesselation}/>
+                    <img src="Mockups/eucalyptusMockup.png" alt="" className={styles.image}/>
+                    <div className={styles.ETTTitle1}>
+                        EUCALYPTUS
+                    </div>
+                    <div className={styles.ETTTitle2}>
+                        TEA TREE
+                    </div>
                 </div>
                 <div className={styles.infoDivETT}>
                     <h1 className={styles.productTitle}>About this Product:</h1>
