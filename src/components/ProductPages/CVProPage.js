@@ -4,8 +4,21 @@ import styles from './styles.module.css'
 function CVProPage(props) {
     return (
         <>
-            <div className={styles.masterDivCV}>
-                <h1 className={styles.headerText}>Coffee Vanilla Laundr Bomb</h1>
+            <div className={styles.masterDiv}>
+                <div className={styles.imageDiv}>
+                    <h1 className={styles.text}>
+                        Image/Animation goes here
+                    </h1>
+                </div>
+                <div className={styles.infoDivCV}>
+                    <h1 className={styles.productTitle}>About this Product:</h1>
+                    <h2 className={styles.productSubTitle}>What's Included:</h2>
+                    <p className={styles.productText}>21 count bag of “Coffee Vanilla” scented Laundr Bombs</p>
+                    <h2 className={styles.productSubTitle}>Product Description:</h2>
+                    <p className={styles.productText}>Smells like the steam rising off of a hot vanilla latte. Great for sitting in an armchair in a quaint neighborhood cafe.</p>
+                    <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
+                    <p className={styles.productText}>Dark Coffee Beans, Vanilla Extract, Hazelnut Cream</p>
+                </div>
             </div>
 
             <div className={styles.spacer}></div>

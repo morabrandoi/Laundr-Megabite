@@ -4,8 +4,21 @@ import styles from './styles.module.css'
 function MTProPage(props) {
     return (
         <>
-            <div className={styles.masterDivMT}>
-                <h1 className={styles.headerText}>Mahogany Teakwood Laundr Bomb</h1>
+            <div className={styles.masterDiv}>
+                <div className={styles.imageDiv}>
+                    <h1 className={styles.text}>
+                        Image/Animation goes here
+                    </h1>
+                </div>
+                <div className={styles.infoDivMT}>
+                    <h1 className={styles.productTitle}>About this Product:</h1>
+                    <h2 className={styles.productSubTitle}>What's Included:</h2>
+                    <p className={styles.productText}>21 count bag of “Mahogany Teakwood” scented Laundr Bombs</p>
+                    <h2 className={styles.productSubTitle}>Product Description:</h2>
+                    <p className={styles.productText}>A great everyday alternative to cologne, or for a getaway to a log cabin hidden deep in a snowy forest.</p>
+                    <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
+                    <p className={styles.productText}>Oak and Mahogany Wood, Boreal Forestry, Light Musk</p>
+                </div>
             </div>
 
             <div className={styles.spacer}></div>
