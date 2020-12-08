@@ -4,9 +4,11 @@
   display: flex;
   flex-direction: column;
 }
+
 .Content{
   margin-left: 4vw;
   margin-right: 4vw;
+  min-height: 70vh;
 }
 
 @font-face{
@@ -79,7 +81,7 @@
 
 .faqs .faq.open .faq-question {
   margin-bottom: 15px;
-  
+
 }
 
 .faqs .faq.open .faq-question::after{

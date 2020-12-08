@@ -1,58 +1,103 @@
-.headerText { 
-    text-align: center;
+
+.Home{
+  height:70vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  position: relative;
+  overflow-x: hidden;
+}
+.Home::-webkit-scrollbar {
+  display: none;
 }
 
-.spacer {
-    height: 100px;
+.Product{
+  height: 70vh;
+  width: 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-
-.border {
-    height: 5px;
-    background-color: black;
+.Product:nth-child(1){
+  background: linear-gradient(0deg, #ffffc8, 15%, #fcadab)
 }
-
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+.Product:nth-child(2){
+  background: linear-gradient(0deg, #e2e2e2, 15%, #ffffc8);
 }
-
-.WatermelonCucumberHeader {
-    text-align: center;
-    color: #ff5656;
+.Product:nth-child(3){
+  background: linear-gradient(0deg, #c8e7ee, 15%, #e2e2e2);
 }
-
-.WhiteGardeniaHeader{
-    text-align: center;
-    color: #f4ea9c;
+.Product:nth-child(4){
+  background: linear-gradient(0deg, #f6eee0, 15%, #c8e7ee);
 }
-
-.MahoganyTeakwoodHeader{
-    text-align: center;
-    color: #5b5b5b;
+.Product:nth-child(5){
+  background: linear-gradient(0deg, #c8ecd3, 15%, #f6eee0);
 }
-
-.FreshAirHeader{
-    text-align: center;
-    color: #8dcfdd;
+.Product:nth-child(6){
+  background: linear-gradient(0deg, #fcadab, 15%, #c8ecd3);
 }
-
-.CoffeeVanillaHeader{
-    text-align: center;
-    color: #e2cea3;
+.Product:nth-child(7){
+  background: linear-gradient(0deg, #ffffc8, 15%, #fcadab)
 }
-
-.EucalyptusTeaTreeHeader{
-    text-align: center;
-    color: #48c47e;
+.Product:nth-child(8){
+  background: linear-gradient(0deg, #e2e2e2, 15%, #ffffc8);
 }
-
-.productText {
-    text-align: center;
+.Product:nth-child(9){
+  background: linear-gradient(0deg, #c8e7ee, 15%, #e2e2e2);
 }
-
-.centerText {
-    display: flex;
-    justify-content: center;
+.Product:nth-child(10){
+  background: linear-gradient(0deg, #f6eee0, 15%, #c8e7ee);
+}
+.Product:nth-child(11){
+  background: linear-gradient(0deg, #c8ecd3, 15%, #f6eee0);
+}
+.Product:nth-child(12){
+  background: linear-gradient(0deg, #fcadab, 15%, #c8ecd3);
+}
+.ProductContent{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1vw;
+}
+.ProductContent h3{
+  font-size:30px;
+}
+.ProductContent h4{
+  width: 25vw;
+}
+.ProductPattern{
+  height:30vh;
+  width: 100vw;
+  background-color: #f9f9f9;
+  position: sticky;
+  bottom:0px;
+  filter: saturate(150%);
+}
+.ProductAsset{
+  padding-top: 30vh;
+  height:400px;
+}
+.ProductAsset:hover {
+    filter: saturate(300%)
+  }
+.ProductLink{
+  z-index: 10;
+}
+.Preview{
+  position: sticky;
+  top:0;
+  height:50vh;
+  z-index:20;
+  background-color: #01c9e1;
+}
+.ScrollTopButton{
+  z-index: 50;
+  width:100vw;
+  height: 30vh;
+  bottom: 0px;
+  position: absolute;
 }
