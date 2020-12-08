@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css'
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 function CVProPage(props) {
     return (
@@ -16,16 +17,25 @@ function CVProPage(props) {
                     </div>
                 </div>
                 <div className={styles.infoDivCV}>
-                    <h1 className={styles.productTitle}>About this Product:</h1>
-                    <h2 className={styles.productSubTitle}>What's Included:</h2>
-                    <p className={styles.productText}>21 count bag of “Coffee Vanilla” scented Laundr Bombs</p>
-                    <h2 className={styles.productSubTitle}>Product Description:</h2>
-                    <p className={styles.productText}>Smells like the steam rising off of a hot vanilla latte. Great for sitting in an armchair in a quaint neighborhood cafe.</p>
-                    <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
-                    <p className={styles.productText}>Dark Coffee Beans, Vanilla Extract, Hazelnut Cream</p>
-                    <button className={styles.addToCart}>
-                        Add To Cart
-                    </button>
+                    <h1 className={styles.productTitle_black}>About this Product:</h1>
+                    <h2 className={styles.productSubTitle_black}>What's Included:</h2>
+                    <p className={styles.productTextCV}>21 count bag of “Coffee Vanilla” scented Laundr Bombs</p>
+                    <h2 className={styles.productSubTitle_black}>Product Description:</h2>
+                    <p className={styles.productTextCV}>Smells like the steam rising off of a hot vanilla latte. Great for sitting in an armchair in a quaint neighborhood cafe.</p>
+                    <h2 className={styles.productSubTitle_black}>Fragrance Notes:</h2>
+                    <p className={styles.productTextCV}>Dark Coffee Beans, Vanilla Extract, Hazelnut Cream</p>
+                    <h2 className={styles.productSubTitle_black}>Price:</h2>
+                    <p className={styles.priceCV}>$18.99</p>
+                    <div className={styles.PPButtons}>
+                        <button className={styles.addToCart}>
+                            Add To Cart
+                        </button>
+                        <div className={styles.arrowButtons}>
+                            <a href="/ETTProPage">
+                                <ArrowBackIcon className={styles.nextPP_black}/>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 

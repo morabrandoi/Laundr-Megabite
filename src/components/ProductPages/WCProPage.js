@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css'
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 function WCProPage(props) {
     return (
@@ -17,16 +18,23 @@ function WCProPage(props) {
                 </div>
 
                 <div className={styles.infoDivWC}>
-                    <h1 className={styles.productTitle}>About this Product:</h1>
-                    <h2 className={styles.productSubTitle}>What's Included:</h2>
-                    <p className={styles.productText}>21 count bag of “Watermelon Cucumber” scented Laundr Bombs</p>
-                    <h2 className={styles.productSubTitle}>Product Description:</h2>
-                    <p className={styles.productText}>A sweet, cool and refreshing smell for brightening up your day. Great for picnic blankets, overalls, and being in a generally good mood.</p>
-                    <h2 className={styles.productSubTitle}>Fragrance Notes:</h2>
-                    <p className={styles.productText}>Crisp Cucumber, Sweet Melon, Cool Grapefruit</p>
-                    <button className={styles.addToCart}>
-                        Add To Cart
-                    </button>
+                    <h1 className={styles.productTitle_white}>About this Product:</h1>
+                    <h2 className={styles.productSubTitle_white}>What's Included:</h2>
+                    <p className={styles.productTextWC}>21 count bag of “Watermelon Cucumber” scented Laundr Bombs</p>
+                    <h2 className={styles.productSubTitle_white}>Product Description:</h2>
+                    <p className={styles.productTextWC}>A sweet, cool and refreshing smell for brightening up your day. Great for picnic blankets, overalls, and being in a generally good mood.</p>
+                    <h2 className={styles.productSubTitle_white}>Fragrance Notes:</h2>
+                    <p className={styles.productTextWC}>Crisp Cucumber, Sweet Melon, Cool Grapefruit</p>
+                    <h2 className={styles.productSubTitle_white}>Price:</h2>
+                    <p className={styles.priceWC}>$18.99</p>
+                    <div className={styles.PPButtons}>
+                        <button className={styles.addToCart}>
+                            Add To Cart
+                        </button>
+                        <a href="/WGProPage">
+                            <ArrowForwardIcon className={styles.nextPP_white}/>
+                        </a>
+                    </div>
                 </div>
             </div>
 

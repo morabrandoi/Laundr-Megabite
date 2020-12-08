@@ -22,6 +22,75 @@
     padding: 8px;
     padding-left: 18px;
     padding-right: 18px;
+    margin-left: auto;
+}
+
+.PPButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.nextPP_white {
+    margin-bottom: 1px;
+    float: right;
+    color: white;
+    padding: 5px;
+}
+
+.nextPP_black {
+    margin-bottom: 1px;
+    float: right;
+    color: black;
+    padding: 5px;
+}
+
+.priceWC {
+    text-align: right;
+    color: #ff5656;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: Roboto;
+}
+
+.priceWG {
+    text-align: right;
+    color: #c4bd72;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: Roboto;
+}
+
+.priceMT {
+    text-align: right;
+    color: #5b5b5b;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: Roboto;
+}
+
+.priceFA {
+    text-align: right;
+    color: #55b9ce;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: Roboto;
+}
+
+.priceEET {
+    text-align: right;
+    color: #48c47e;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: Roboto;
+}
+
+.priceCV {
+    text-align: right;
+    color: #ceae69;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: Roboto;
 }
 
 .masterDiv {
@@ -44,7 +113,7 @@
 .infoDivWC {
     width: 40%;
     height: 90vh;
-    background-color: #ff5656;
+    background-color: #fcadab;
     z-index: 10;
     margin: 0 auto;
     padding: 10px;
@@ -53,7 +122,7 @@
 .infoDivWG {
     width: 40%;
     height: 90vh;
-    background-color: #f4ea9c;
+    background-color: #ffffc8;
     z-index: 10;
     margin: 0 auto;
     padding: 10px;
@@ -62,7 +131,7 @@
 .infoDivMT {
     width: 40%;
     height: 90vh;
-    background-color: #5b5b5b;
+    background-color: #e2e2e2;
     z-index: 10;
     margin: 0 auto;
     padding: 10px;
@@ -71,7 +140,7 @@
 .infoDivFA {
     width: 40%;
     height: 90vh;
-    background-color: #8dcfdd;
+    background-color: #c8e7ee;
     z-index: 10;
     margin: 0 auto;
     padding: 10px;
@@ -80,7 +149,7 @@
 .infoDivETT {
     width: 40%;
     height: 90vh;
-    background-color: #48c47e;
+    background-color: #c8ecd3;
     z-index: 10;
     margin: 0 auto;
     padding: 10px;
@@ -89,7 +158,7 @@
 .infoDivCV {
     width: 40%;
     height: 90vh;
-    background-color: #e2cea3;
+    background-color: #f6eee0;
     z-index: 10;
     margin: 0 auto;
     padding: 10px;
@@ -269,27 +338,95 @@
     font-size: 7vw;
 }
 
-.productTitle {
+.productTitle_white {
     text-align: center;
     padding: 20px;
     padding-bottom: 40px;
     font-family: 'Calmer-Bold';
+    color: white;
 }
 
-.productSubTitle {
+.productTitle_black {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-family: 'Calmer-Bold';
+    color: black;
+}
+
+
+.productSubTitle_white {
     text-align: right;
-    color: #676767;
-    font-size: 22px;
+    color: white;
+    font-size: 3vh;
     font-style: italic;
     font-weight: bold;
     font-family: Roboto;
 }
 
-.productText {
+.productSubTitle_black {
+    text-align: right;
+    color: black;
+    font-size: 3vh;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.productSubTitleMT {
     text-align: right;
     color: white;
-    font-size: 16px;
-    padding-bottom: 40px;
+    font-size: 3vh;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.productTextWC {
+    text-align: right;
+    color: #ff5656;
+    font-size: 2.25vh;
+    padding-bottom: 25px;
+    font-family: Roboto;
+}
+
+.productTextWG {
+    text-align: right;
+    color: #c4bd72;
+    font-size: 2.25vh;
+    padding-bottom: 25px;
+    font-family: Roboto;
+}
+
+.productTextMT {
+    text-align: right;
+    color: #5b5b5b;
+    font-size: 2.25vh;
+    padding-bottom: 25px;
+    font-family: Roboto;
+}
+
+.productTextFA {
+    text-align: right;
+    color: #55b9ce;
+    font-size: 2.25vh;
+    padding-bottom: 25px;
+    font-family: Roboto;
+}
+
+.productTextETT {
+    text-align: right;
+    color: #48c47e;
+    font-size: 2.25vh;
+    padding-bottom: 25px;
+    font-family: Roboto;
+}
+
+.productTextCV {
+    text-align: right;
+    color: #ceae69;
+    font-size: 2.25vh;
+    padding-bottom: 25px;
     font-family: Roboto;
 }
 
