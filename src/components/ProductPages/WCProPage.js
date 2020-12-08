@@ -37,13 +37,6 @@ function WCProPage(props) {
                     </div>
                 </div>
             </div>
-
-            <div className={styles.spacer}></div>
-            <div className={styles.text}>
-                <a href="/"> Go Back to Home page</a>
-            </div>
-            <div className={styles.spacer}></div>
-            
         </>
     );
 }
