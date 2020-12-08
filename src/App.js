@@ -40,7 +40,6 @@ function App() {
             </Switch>
         </BrowserRouter>
       </div>
-      <div className="Fill"/>
       <FooterBar/>
     </div>
   );

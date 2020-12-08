@@ -4,7 +4,7 @@ import {Grid} from '@material-ui/core';
 import styles from './styles.module.css'
 
 function Shops(props) {
-  const products = [{name:"Watermelon Cucumber",image:"WatermelonCucumber.svg",route:"WCProPage"},{name:"White Gardenia",image:"WhiteGardenia.svg",route:"WGProPage"},{name:"Mahogany Teakwood",image:"MahoganyTeakwood.svg",route:"MTProPage"},{name:"Fresh Air",image:"FreshAir.svg",route:"FAProPage"},{name:"Coffee Vanilla",image:"CoffeeVanilla.svg",route:"CVProPage"},{name:"Eucalyptus Tea Tree",image:"EucalyptusTeaTree.svg",route:"ETTProPage"}]
+  const products = [{name:"Watermelon Cucumber",image:"./wc/watermelon_asset.png",route:"WCProPage"},{name:"White Gardenia",image:"./wg/gardenia_asset.png",route:"WGProPage"},{name:"Mahogany Teakwood",image:"./mt/mahogany_asset.png",route:"MTProPage"},{name:"Fresh Air",image:"./fa/freshair_asset.png",route:"FAProPage"},{name:"Coffee Vanilla",image:"./cv/coffee_asset.png",route:"CVProPage"},{name:"Eucalyptus Tea Tree",image:"./et/eucalyptus_asset.png",route:"ETTProPage"}]
     return (
       <div>
       <div className={styles.ShopAllText}>

@@ -28,4 +28,5 @@
 
 .GridImage {
   height: 400px;
+  align-items: center;
 }
