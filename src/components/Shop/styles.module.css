@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Title {
+  font-family: 'Roboto', sans-serif;
 }
 
 .TextFill {
