@@ -42,7 +42,7 @@ export default function ForgotPassword() {
               <TextField variant="standard" label="Email" required={true} value={email} onChange={(e)=>{e.preventDefault(); setEmail(e.target.value)}}/>
             </div>
             <div className={styles.ButtonWrapper}>
-              <Button disabled={loading} className="w-100" type="submit">Reset Password</Button>
+              <Button variant="contained" color="primary" disabled={loading} className="w-100" type="submit">Reset Password</Button>
             </div>
           </form>
           <div className="w-100 text-center mt-3">

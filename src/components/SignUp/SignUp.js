@@ -48,10 +48,10 @@ export default function SignUp() {
             </div>
             <div className={styles.Password}>
               <TextField className={styles.Field2} variant="standard" label="Password" required={true} value={password} onChange={(e)=>{e.preventDefault(); setPassword(e.target.value)}}/>
-              <TextField className={styles.Field3} style={{marginLeft:"10px"}} variant="standard" label="Password Confirmation" required={true} value={passwordConfirmation} onChange={(e)=>{e.preventDefault(); setPassword(e.target.value)}}/>
+              <TextField className={styles.Field3} style={{marginLeft:"10px"}} variant="standard" label="Password Confirmation" required={true} value={passwordConfirmation} onChange={(e)=>{e.preventDefault(); setPasswordConfirmation(e.target.value)}}/>
             </div>
             <div className={styles.ButtonWrapper}>
-              <Button variant="standard" disabled={loading} className={styles.SignButton} type="submit">Sign Up</Button>
+              <Button variant="contained" color="primary" disabled={loading} className={styles.SignButton} type="submit">Sign Up</Button>
             </div>
           </form>
       </Card>

@@ -1,8 +1,9 @@
-.headerText { 
+.headerText {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.text {
-    display: flex;
-    justify-content: center;
+.Info {
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
