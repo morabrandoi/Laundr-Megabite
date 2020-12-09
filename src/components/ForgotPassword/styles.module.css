@@ -13,23 +13,9 @@
   width: 40vw;
 }
 
-.SignUp{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
-
 .Form{
   display:flex;
   flex-direction: column;
-}
-
-.SignButton{
-  width: 20%;
-  align-self: center;
-}
-
-.ButtonWrapper{
-  padding: 10px;
 }
 
 .Field {
@@ -37,4 +23,13 @@
   flex-direction: column;
   width: 80%;
   align-self: center;
+}
+
+.ButtonWrapper{
+  padding: 10px;
+}
+
+.SignUp{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }

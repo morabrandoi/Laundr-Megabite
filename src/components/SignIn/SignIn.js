@@ -39,10 +39,12 @@ export default function SignIn() {
             <h2>Sign In</h2>
             {error && <Alert severity="error">{error}</Alert>}
               <form onSubmit={ handleSubmit } className={styles.Form}>
-                <TextField variant="standard" label="Email" required={true} value={email} onChange={(e)=>{e.preventDefault(); setEmail(e.target.value)}}/>
-                <TextField variant="standard" label="Password" required={true} value={password} onChange={(e)=>{e.preventDefault(); setPassword(e.target.value)}}/>
+                <div className={styles.Field}>
+                  <TextField variant="standard" label="Email" required={true} value={email} onChange={(e)=>{e.preventDefault(); setEmail(e.target.value)}}/>
+                  <TextField variant="standard" label="Password" required={true} value={password} onChange={(e)=>{e.preventDefault(); setPassword(e.target.value)}}/>
+                </div>
                 <div className={styles.ButtonWrapper}>
-                  <Button variant="outlined" disabled={loading} className={styles.SignButton} type="submit">Sign In</Button>
+                  <Button variant="standard" disabled={loading} className={styles.SignButton} type="submit">Sign In</Button>
                 </div>
               </form>
             <div className="w-100 text-center mt-3">
