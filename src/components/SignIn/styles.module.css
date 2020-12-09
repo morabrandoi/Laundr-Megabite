@@ -1,0 +1,33 @@
+.Wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Card{
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  align-self: center;
+  text-align: center;
+  width: 40vw;
+}
+
+.SignUp{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Form{
+  display:flex;
+  flex-direction: column;
+}
+
+.SignButton{
+  width: 20%;
+  align-self: center;
+}
+
+.ButtonWrapper{
+  padding: 10px;
+}
