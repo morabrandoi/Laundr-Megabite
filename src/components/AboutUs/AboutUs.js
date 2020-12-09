@@ -22,9 +22,6 @@ In doing this, we recognized that if the task of doing the perfect load of laund
 After just a few weeks of prototyping our new laundry detergent, we realized that we had arrived at something amazing. Beyond an excellent solution for cleaning Laundr orders, Laundr Bombs had a vibrant and long-lasting scent that gave us an air of exploration and adventure.
 
 The fragrances of Laundr Bombs are much more than the various types of “soapy” smells that we are used to seeing in the detergent aisle at the local grocery store. There is a subtle confidence that comes with feeling your soft, clean clothes on your skin and smelling the lively scent of today’s adventure.</p>
-            <div className={styles.text}>
-                <a href="/"> Go Back to Home page</a>
-            </div>
         </>
     );
 }
